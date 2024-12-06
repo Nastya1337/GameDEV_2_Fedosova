@@ -157,7 +157,7 @@ public class NewSccript : MonoBehaviour
         selectAudio = GetComponent<AudioSource>();
         selectAudio.clip = goodSpeak;
         selectAudio.Play();
-        yield return new WaitForSeconds(3);
+        field return new WaitForSeconds(3);
         statusStart = false;
         i++;
     }
@@ -167,7 +167,7 @@ public class NewSccript : MonoBehaviour
         selectAudio = GetComponent<AudioSource>();
         selectAudio.clip = normalSpeak;
         selectAudio.Play();
-        yield return new WaitForSeconds(3);
+        field return new WaitForSeconds(3);
         statusStart = false;
         i++;
     }
@@ -177,7 +177,7 @@ public class NewSccript : MonoBehaviour
         selectAudio = GetComponent<AudioSource>();
         selectAudio.clip = badSpeak;
         selectAudio.Play();
-        yield return new WaitForSeconds(4);
+        field return new WaitForSeconds(4);
         statusStart = false;
         i++;
     }
